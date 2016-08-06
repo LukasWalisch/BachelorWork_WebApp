@@ -8,6 +8,7 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('main');
+  this.route('visualization');
 });
 
 export default Router;

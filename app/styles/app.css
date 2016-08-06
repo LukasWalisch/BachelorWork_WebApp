@@ -3,11 +3,8 @@
   max-width: 1000px;
   margin: auto;
   height: 100vh;
-
-}
-
-#main-wrap {
-
+  display: flex;
+  flex-direction: column;
 }
 
 #header, #footer {
@@ -17,14 +14,15 @@
   padding: 1em;
 }
 
-#main-container {
+#body-container {
   display: flex;
   justify-content: center;
+  flex: 1 100%;
 }
 
 #mappings-container {
   text-align: center;
-  flex-grow: 2;
+  flex-grow: 10;
   height: inherit;
   border: 1px solid black;
   background-color: coral;
@@ -36,11 +34,11 @@
   border: 1px solid black;
   background-color: coral;
   padding: 2em;
+  align-content: center;
 }
 
 #tactic-list-container {
-
-  height: 8em;
-  width: 50%;
+  border: 1px solid black;
+  min-heigth: 12em;
   overflow: auto;
 }
