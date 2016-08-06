@@ -1,8 +1,7 @@
 test
 {{#each model as |entry|}}
   {{entry.info}}
-  {{#each entry.patternId as |pattern|}}
-    {{get pattern 'info'}}
-  {{/each}}
+  {{entry.patternId.info}}
+  {{entry.patternId.info}}
 {{/each}}
 
