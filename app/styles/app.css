@@ -42,3 +42,9 @@
   min-heigth: 12em;
   overflow: auto;
 }
+
+#visual-container {
+  border: 1px solid red;
+  width: 100%;
+  height: 400px;
+}
