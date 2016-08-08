@@ -1,12 +1,6 @@
 <div id="visual-container">
-  {{#visjs-network options=options storeAs=network}}
-    {{visjs-node nId=1 label="tactic1"}}
-    {{visjs-node nId=2 label="pattern1"}}
-    {{visjs-node nId=3 label="pattern2"}}
-    {{visjs-edge from=1 to=2}}
-    {{visjs-edge from=1 to=3}}
-  {{/visjs-network}}
-  {{#bs-button action=(action 'testAction')}}
-    move to 1
-  {{/bs-button}}
+
 </div>
+{{#bs-button action=(action 'moveIt')}}
+  move it!
+{{/bs-button}}
